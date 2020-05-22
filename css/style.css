@@ -1,0 +1,101 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium" , "游ゴシック Medium" , YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3" , sans-serif;
+  line-height: 1.7;
+  color: #432;
+  margin: 0px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background: #ffffff;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25rem;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-nav li {
+  margin-left: 32px;
+  margin-right: 20px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
+}
+
+#main-top {
+  background-image: linear-gradient(#F89174, #FFC778);
+  min-height: 60vh;
+}
+
+#main-top h1{
+  font-size: 60px;
+  color: aliceblue;
+  padding: 200px;
+  margin-top: 0px;
+}
+#profile {
+  margin-bottom: 100px;
+}
+
+#profile p {
+  font-size: 20px;
+}
+
+#works {
+  margin-bottom: 100px;
+}
+
+.item {
+  width: 350px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom:  2px olive solid;
+}
+
+#skills {
+  margin-bottom: 100px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-list li {
+  margin: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background: skyblue;
+  border-width:5px;
+  border-style: solid;
+  list-style: none;
+}
